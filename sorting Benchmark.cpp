@@ -10,14 +10,14 @@
 
 using Random = effolkronium::random_static;
 
-std::vector<int> createArray(int arrayLength = 250)
+std::vector<int> createArray(unsigned long int arrayLength = 250)
 {
 	std::vector<int> array;
 	array.reserve(arrayLength);
 
 	for (int i = 0; i < arrayLength; i++)
 	{
-		int element = Random::get(1, arrayLength * 5);
+		int element = Random::get((unsigned long int) 1, arrayLength * 5);
 		array.emplace_back(element);
 	}
 
@@ -56,7 +56,8 @@ int main()
 	while (true)
 	{
 		system("CLS");
-		int arraySize;
+
+		unsigned long int arraySize;
 		std::string sortType;
 
 		std::cout << "Enter Array size:\n";
