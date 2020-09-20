@@ -111,6 +111,10 @@ int main()
 			printArray(generateArray);
 
 		std::cout << "\n======== Sorted Array in " << timeElapsed_sort << " seconds ========" << std::endl;
+
+		generateArray.clear();
+		generateArray.shrink_to_fit();
+
 		system("PAUSE");
 	}
 
