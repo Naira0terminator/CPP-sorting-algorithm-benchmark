@@ -17,7 +17,7 @@ void selection(std::vector<int>& array)
 	}
 }
 
-// ============== SELCTION SORT ==================
+// ============== RADIX SORT ==================
 void counting(std::vector<int>& array, int exp)
 {
 	std::vector<int> output;
