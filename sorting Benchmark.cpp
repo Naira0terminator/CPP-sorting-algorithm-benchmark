@@ -59,7 +59,7 @@ int main()
 		int arraySize;
 		std::string sortType;
 
-		std::cout << "Enter array size:\n";
+		std::cout << "Enter Array size:\n";
 		std::cin >> arraySize;
 
 		std::cout << "Enter a sorting method (std, radix, selection, quick, heap):\n";
