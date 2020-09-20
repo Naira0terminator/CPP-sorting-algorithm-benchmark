@@ -1,5 +1,5 @@
-# CPP-sorting-algorithm-benchmark
-A simple console app to benchmark different sorting algorithms in C++
+# CPP sorting algorithm benchmark
+#### A simple console app to benchmark different sorting algorithms in C++
 
 ## Algorithms
 #### more will be added in the future
