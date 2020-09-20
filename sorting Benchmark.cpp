@@ -85,7 +85,7 @@ int main()
 		if(display)
 			printArray(generateArray);
 
-		std::cout << "\n======== Created Array in " << timeElapsed << "seconds ========" << std::endl;
+		std::cout << "\n======== Created Array in " << timeElapsed << " seconds ========" << std::endl;
 
 		system("PAUSE");
 		system("CLS");
@@ -110,7 +110,7 @@ int main()
 		if(display)
 			printArray(generateArray);
 
-		std::cout << "\n======== Sorted Array in " << timeElapsed_sort << "seconds ========" << std::endl;
+		std::cout << "\n======== Sorted Array in " << timeElapsed_sort << " seconds ========" << std::endl;
 		system("PAUSE");
 	}
 
