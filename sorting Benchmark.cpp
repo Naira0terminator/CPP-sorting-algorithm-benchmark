@@ -1,12 +1,12 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
+#include <cstdio>
+
 #include "random.hpp"
 #include "timer.hpp"
 #include "sorting functions.h"
-#include <algorithm>
-#include <cstdio>
-#include <windows.h>
-#include <iomanip>
+
 
 using Random = effolkronium::random_static;
 
